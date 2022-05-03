@@ -19,3 +19,5 @@ Y_pred=regressor.predict(X_test)
 from sklearn.metrics import r2_score
 score=r2_score(Y_test,Y_pred)
 r2_score
+# So here my R2(Coefficient of determination is 93% which means it is good model and Depedent Variable(Price) is 93% explained by 3 Indepent variable as 
+# 1.R&D Spend	2.Administration	3.Marketing Spend	4.State(Categorical Variable).
